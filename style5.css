@@ -1,0 +1,54 @@
+body{
+    background-image: url("prince1.jpg");
+    background-size: cover;
+}
+table{
+    background-image: url("prince.jpg");
+    color:rgb(110, 29, 56);
+    background-size: cover;
+    /* text-align: center; */
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+div{
+    height:500px;
+    width:700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top:100px;
+    margin-right:250px;
+    margin-bottom: 250px;
+}
+input[type=button]{
+    background-image: url("prince1.jpg");
+    border:1px solid salmon;
+    border-radius:50%;
+    display:flex;
+    justify-content: space-around;
+    padding: 15px 35px;
+    font-size: 25px;
+    backdrop-filter: blur(30px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:pointer;
+}
+input[type=text]{
+    padding:20px 40px;
+    font-size: 25px;
+    border: 1px solid rgb(255, 0, 93);
+    border-radius: 5px;
+    background-image: url("prince2.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input[type=button]:hover{
+    border:2px solid rgb(200, 69, 49);
+    background-image: url("prince2.jpg");
+    transition: 0.3s;
+}
+input[type=text]:hover{
+    border:2px groove rgb(240, 99, 122);
+}
